@@ -4,7 +4,81 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Passion: Skiing at Alta</title>
-  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f4f4f9;
+      color: #333;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      background: url('https://www.alta.com/sites/default/files/styles/resort_hero/public/2023-02/23_GRD_BTM_hero_v2.png?itok=ozqNAZ60') no-repeat center center/cover;
+      color: black;
+      padding: 70px 0;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    nav ul {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+    }
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+    .content-div {
+      margin: 20px 0;
+      border: 1px solid #ccc;
+      padding: 15px;
+    }
+    .custom-background {
+      background-color: #cce7ff;
+      padding: 10px;
+      border-radius: 8px;
+      max-width: 500px;
+      text-align: left;
+    }
+    a {
+      color: #00457c;
+    }
+    .tableauPlaceholder {
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+    }
+    .video-section {
+      display: flex;
+      align-items: flex-start;
+      gap: 32px;
+      margin-bottom: 24px;
+    }
+    .video-content {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .alta-image {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .alta-image img {
+      width: 560px;
+      height: 315px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .alta-caption {
+      margin-top: 8px;
+      font-size: 1rem;
+      color: #444;
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -39,32 +113,27 @@
     <section id="video" class="content-div">
       <h2>Experience Alta - Watch This Video</h2>
       <div class="video-section">
-        <div class="video-content">
+        <div class="video-wrapper">
           <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/nMwlsXtZ6LM"
-            title="Alta skiing video"
-            frameborder="0"
+            src="https://www.youtube-nocookie.com/embed/jNQXAC9IVRw"
+            title="Skiing video"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin"
             allowfullscreen></iframe>
-          <p class="video-caption">We love videos like this that capture the essence of skiing!</p>
         </div>
+
+        <p class="video-caption">We love videos like this that capture the essence of skiing at Alta.</p>
       </div>
     </section>
 
-    <section id="daughter-alta" class="content-div">
-      <div class="funfact-layout">
-        <div class="funfact-text">
+    <section id="daughter-alta" class="content-div" style="display: flex; align-items: flex-start; gap: 32px;">
+      <div style="flex: 1; min-width: 0;">
         <h2>Fun Fact: Our Daughter Alta</h2>
         <p class="custom-background">Skiing at Alta Ski Resort means so much to us that we even named our firstborn daughter "Alta"! To us, the name represents beauty, adventure, and pure joy. <a href="https://www.alta.com/about" target="_blank" rel="noopener">Read Alta's history and how it started</a>, which gives great background on the resort's origins.</p>
-        <div class="app-link"><a href="app.html">Play the Ski Trivia Game</a></div>
-        </div>
-        <div class="funfact-image">
-          <img src="skiing-with-a-view-min.jpg" alt="Alta Ski Resort">
-          <div class="alta-caption">Skiing down Collins Lift</div>
-        </div>
+      </div>
+      <div class="alta-image" style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+        <img src="skiing-with-a-view-min.jpg" alt="Alta Ski Resort" style="width: 400px; height: 225px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);">
+        <div class="alta-caption">Skiing down Collins Lift</div>
       </div>
     </section>
 
