@@ -4,81 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Passion: Skiing at Alta</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      background-color: #f4f4f9;
-      color: #333;
-      padding: 20px;
-    }
-    header {
-      text-align: center;
-      background: url('https://www.alta.com/sites/default/files/styles/resort_hero/public/2023-02/23_GRD_BTM_hero_v2.png?itok=ozqNAZ60') no-repeat center center/cover;
-      color: black;
-      padding: 70px 0;
-    }
-    header h1 {
-      font-size: 3em;
-    }
-    nav ul {
-      list-style: none;
-      padding: 0;
-      text-align: center;
-    }
-    nav ul li {
-      display: inline;
-      margin-right: 10px;
-    }
-    .content-div {
-      margin: 20px 0;
-      border: 1px solid #ccc;
-      padding: 15px;
-    }
-    .custom-background {
-      background-color: #cce7ff;
-      padding: 10px;
-      border-radius: 8px;
-      max-width: 500px;
-      text-align: left;
-    }
-    a {
-      color: #00457c;
-    }
-    .tableauPlaceholder {
-      margin: 0 auto;
-      display: flex;
-      justify-content: center;
-    }
-    .video-section {
-      display: flex;
-      align-items: flex-start;
-      gap: 32px;
-      margin-bottom: 24px;
-    }
-    .video-content {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    .alta-image {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .alta-image img {
-      width: 560px;
-      height: 315px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
-    }
-    .alta-caption {
-      margin-top: 8px;
-      font-size: 1rem;
-      color: #444;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
@@ -128,14 +54,16 @@
       </div>
     </section>
 
-    <section id="daughter-alta" class="content-div" style="display: flex; align-items: flex-start; gap: 32px;">
-      <div style="flex: 1; min-width: 0;">
-        <h2>Fun Fact: Our Daughter Alta</h2>
-        <p class="custom-background">Skiing at Alta Ski Resort means so much to us that we even named our firstborn daughter "Alta"! To us, the name represents beauty, adventure, and pure joy. <a href="https://www.alta.com/about" target="_blank" rel="noopener">Read Alta's history and how it started</a>, which gives great background on the resort's origins.</p>
-      </div>
-      <div class="alta-image" style="flex: 1; display: flex; flex-direction: column; align-items: center;">
-        <img src="skiing-with-a-view-min.jpg" alt="Alta Ski Resort" style="width: 400px; height: 225px; object-fit: cover; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.12);">
-        <div class="alta-caption">Skiing down Collins Lift</div>
+    <section id="daughter-alta" class="content-div">
+      <div class="funfact-layout">
+        <div class="funfact-text">
+          <h2>Fun Fact: Our Daughter Alta</h2>
+          <p class="custom-background">Skiing at Alta Ski Resort means so much to us that we even named our firstborn daughter "Alta"! To us, the name represents beauty, adventure, and pure joy. <a href="https://www.alta.com/about" target="_blank" rel="noopener">Read Alta's history and how it started</a>, which gives great background on the resort's origins.</p>
+        </div>
+        <div class="funfact-image">
+          <img src="skiing-with-a-view-min.jpg" alt="Alta Ski Resort">
+          <div class="alta-caption">Skiing down Collins Lift</div>
+        </div>
       </div>
     </section>
 
