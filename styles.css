@@ -1,0 +1,133 @@
+/* Scratch-page stylesheet (created from scratch) */
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+  color: #333;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  background: url('https://www.alta.com/sites/default/files/styles/resort_hero/public/2023-02/23_GRD_BTM_hero_v2.png?itok=ozqNAZ60') no-repeat center center/cover;
+  color: black;
+  padding: 70px 0;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+a {
+  color: #00457c;
+}
+
+.content-div {
+  margin: 20px 0;
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.custom-background {
+  background-color: #cce7ff;
+  padding: 10px;
+  border-radius: 8px;
+  max-width: 500px;
+  text-align: left;
+}
+
+.tableauPlaceholder {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.video-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+  margin-bottom: 24px;
+}
+
+.video-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-caption {
+  text-align: center;
+  width: 560px;
+  margin-bottom: 2px;
+}
+
+.video-note {
+  text-align: center;
+  width: 560px;
+  font-size: 0.95em;
+  color: #555;
+  margin-top: 0;
+}
+
+.funfact-layout {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.funfact-text {
+  flex: 1;
+  min-width: 0;
+}
+
+.funfact-image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.funfact-image img {
+  width: 400px;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+}
+
+.alta-caption {
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #444;
+}
+
+.app-link {
+  text-align: center;
+  margin-top: 12px;
+}
+
+.app-link a {
+  display: inline-block;
+  background: #00457c;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.app-link a:hover {
+  text-decoration: underline;
+}
